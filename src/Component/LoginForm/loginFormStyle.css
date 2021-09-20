@@ -1,0 +1,31 @@
+@import 'react-toastify/dist/ReactToastify.css';
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.login-wrapper {
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 1px 5px #ddd;
+}
+
+.login-head {
+    background-color: #545e5b;
+    padding: 10px;
+    position: relative;
+    height: 50px;
+    border-radius: 5px 5px 0px 0px;
+}
+.login-head .login-avatar {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.login-body {
+    padding: 40px 20px 10px;
+    position: relative;
+}

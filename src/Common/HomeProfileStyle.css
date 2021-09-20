@@ -1,0 +1,26 @@
+.profile-main {
+    background-color: #01b7de;
+    padding: 15px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 300px;
+}
+.profile-main h1 {
+    font-size: 26px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0px;
+    padding: 10px 0 0;
+}
+.profile-main p {
+    font-size: 14px;
+    color: #fff;
+    margin: 0px;
+    padding: 0;
+}
+.mar-rt-10 {
+    margin-right: 10px;
+}
